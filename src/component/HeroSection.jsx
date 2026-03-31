@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="w-11/12 md:h-[720px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center overflow-hidden">
         <div className="space-y-6 flex flex-col justify-center h-full">
           <div className="w-fit inline-flex items-center gap-2 bg-purple-50 text-purple-600 px-4 py-1.5 rounded-full text-sm font-medium border border-purple-100">
-            <i class="fa-solid fa-location-crosshairs"></i>
+            <i className="fa-solid fa-location-crosshairs"></i>
             New: AI-Powered Tools Available
           </div>
 
