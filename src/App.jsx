@@ -9,6 +9,7 @@ import ProductList from "./component/ProductList";
 import Cart from "./component/Cart";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import CreateAccount from "./component/CreateAccount";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -49,6 +50,8 @@ function App() {
           handleClear={handleClear}
         />
       )}
+
+      <CreateAccount></CreateAccount>
     </>
   );
 }

@@ -23,7 +23,7 @@ function ProductList({ handleAdd }) {
   };
 
   return (
-    <div className="p-6 min-h-screen w-11/12 mx-auto">
+    <div className="pb-[120px] min-h-screen w-11/12 mx-auto">
       <div className="grid md:grid-cols-3 gap-6">
         {products.map((item) => (
           <div
@@ -56,7 +56,9 @@ function ProductList({ handleAdd }) {
 
             <ul className="text-sm mt-3 space-y-1 text-gray-600">
               {item.features.map((f, i) => (
-                <li key={i}>✔ {f}</li>
+                <li key={i}>
+                  <i className="fa-solid fa-check text-green-500"></i> {f}
+                </li>
               ))}
             </ul>
 

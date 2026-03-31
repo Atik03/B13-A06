@@ -2,7 +2,7 @@ import React from "react";
 
 function Header({ view, setView, cartCount }) {
   return (
-    <div className="text-center py-10 ">
+    <div className="text-center pt-[120px] pb-10">
       <h1 className="text-4xl font-bold mb-2">Premium Digital Tools</h1>
 
       <p className="text-gray-500 mb-6">
