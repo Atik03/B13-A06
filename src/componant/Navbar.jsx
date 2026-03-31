@@ -27,25 +27,25 @@ function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <a>Products</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a>Features</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Pricing</a>
+            </li>
+            <li>
+              <a>Testimonials</a>
+            </li>
+            <li>
+              <a>FAQ</a>
             </li>
           </ul>
         </div>
-        <span className="text-[#853ff9] text-xl font-bold">DigiTools</span>
+        <span className="text-[#853ff9] text-sm md:text-xl font-bold">
+          DigiTools
+        </span>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
