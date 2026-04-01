@@ -12,6 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 import CreateAccount from "./component/CreateAccount";
 import Pricing from "./component/Pricing";
 import WorkFlow from "./component/WorkFlow";
+import Footer from "./component/Footer";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -56,6 +57,7 @@ function App() {
       <CreateAccount></CreateAccount>
       <Pricing></Pricing>
       <WorkFlow></WorkFlow>
+      <Footer></Footer>
     </>
   );
 }
