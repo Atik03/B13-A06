@@ -1,16 +1,20 @@
-# React + Vite
+# Digital Tools Buying Website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description:
+  Digital Tools Buying Website is a simple and user-friendly e-commerce platform. This project is designed in a way that anyone can easily browse the website and        purchase digital tools product without any confusion. It provides a smooth and convenient shopping experience for users.
 
-Currently, two official plugins are available:
+## Technologies Used.
+  React.js
+  Tailwind CSS, DaisyUI
+  JavaScript (ES6+)
+  React-Toastify (NPM Package)
+  JSON (for product data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features.
+ . Add products to cart using the “Buy Now” button  
+ . Live cart counter updates dynamically in the navbar  
+ . Separate product and cart sections for better UI structure  
+ . Selected products are displayed in the cart section after purchase  
+ . Total price calculation for all selected products  
+ . Remove individual products from the cart with automatic price update  
+ . Clear all cart items at once with a single action 
