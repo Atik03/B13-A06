@@ -4,8 +4,8 @@ import playbutton from "../assets/Play.png";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white min-h-screen flex items-center justify-center px-6 py-12">
-      <div className="w-11/12 md:h-[720px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center overflow-hidden">
+    <section className=" bg-white h-auto flex items-center justify-center px-6 py-12 w-full">
+      <div className=" w-11/12 mx-auto md:h-[720px] grid grid-cols-1 md:grid-cols-2 gap-12 items-center overflow-hidden">
         <div className="space-y-6 flex flex-col justify-center h-full">
           <div className="w-fit inline-flex items-center gap-2 bg-purple-50 text-purple-600 px-4 py-1.5 rounded-full text-sm font-medium border border-purple-100">
             <i className="fa-solid fa-location-crosshairs"></i>
