@@ -98,7 +98,7 @@ function Pricing() {
                 {plan.features.map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm">
                     <i
-                      className={`fa-solid fa-circle-check ${
+                      className={`fa-solid fa-check ${
                         plan.highlight ? "text-white" : "text-green-600"
                       }`}
                     ></i>

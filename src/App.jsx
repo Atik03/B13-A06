@@ -11,6 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CreateAccount from "./component/CreateAccount";
 import Pricing from "./component/Pricing";
+import WorkFlow from "./component/WorkFlow";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -54,6 +55,7 @@ function App() {
 
       <CreateAccount></CreateAccount>
       <Pricing></Pricing>
+      <WorkFlow></WorkFlow>
     </>
   );
 }
